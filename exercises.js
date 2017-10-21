@@ -27,7 +27,8 @@ console.log(testGreeting); // printing the output value of the function.
  * These two variables will be used to invoke the functions #2 - #5.
 */ 
 
-
+ var bango1 = "10";
+ var bango2 = "20";
 
 /*
  * #2
@@ -44,7 +45,13 @@ console.log(testGreeting); // printing the output value of the function.
  * Console.log `sum` to test your code.
 */
 
+function add(num1,num2){
+	console.log(num1,num2);
+}   add(num1+num2);
 
+function sum(10,20){
+	console.log(10,20);
+}   sum(10+20);
 
 /*
  * #3
@@ -60,7 +67,13 @@ console.log(testGreeting); // printing the output value of the function.
  * Console.log `difference` to test your code.
 */ 
 
+function subtract(num1,num2){
+    console.log(num1,num2);
+}   subtract(num1-num2);
 
+function difference(10,20){
+	console.log(10,20);
+}   difference(10-20);
 
 /*
  * #4
@@ -76,7 +89,13 @@ console.log(testGreeting); // printing the output value of the function.
  * Console.log `product` to test your code.
 */
 
+function product(num1,num2){
+	console.log(num1,num2);
+}   product(num1*num2);
 
+function multiply(10,20){
+	console.log(10,20);
+}   multiply(10*20);
 
 /*
  * #5
@@ -92,7 +111,13 @@ console.log(testGreeting); // printing the output value of the function.
  * Console.log `quotient` to test your code.
 */
 
+function quotient(num1,num2){
+	console.log(num1,num2);
+}   quotient(num1/num);
 
+function devide(10,20){
+	console.log(10,20);
+}   devide(10/20);
 
 /*
  * #6
@@ -106,7 +131,7 @@ console.log(testGreeting); // printing the output value of the function.
  * Console.log your result.
 */
 
-
+function checksum(x)
 
 /*
  * #7
@@ -120,7 +145,7 @@ console.log(testGreeting); // printing the output value of the function.
  * Console.log your results.
 */ 
 
-
+function checkDifference(x)
 
 /*
  * #8
@@ -133,7 +158,7 @@ console.log(testGreeting); // printing the output value of the function.
  * Console.log your result.  
 */
 
-
+function checkProduct(x)
 
 /*
  * #9
@@ -146,7 +171,7 @@ console.log(testGreeting); // printing the output value of the function.
  * Console.log your result.  
 */
 
-
+function checkQuotient(x)
 
 /*
  * #10
@@ -168,7 +193,18 @@ console.log(testGreeting); // printing the output value of the function.
  * Console.log your result.
 */ 
 
+var addThenSubtract = "100"
+var addThenSubtract = "200"
+var addThenSubtract = "300"
+/*New Variables End Here*/
 
+function addThenSubtract(100,200,300){
+	console.log(100,200,300);
+}   addThenSubtract(100+200-300);
+
+function addThenSubtract(100,200,300{
+	console.log(100,200,300);
+}   addThenSubtract(100+200-300);
 
 /*
  * #11
@@ -184,7 +220,13 @@ console.log(testGreeting); // printing the output value of the function.
  * Console.log your result.
 */ 
 
+function multiplyThenDivide(100,200,300){
+	console.log(100,200,300);
+}   multiplyThenDivide(100*200/300);
 
+function multiplyThenDivide(100,200,300{
+	console.log(100,200,300);
+}   multiplyThenDivide(100*200/300);
 
 /*
  * #12
@@ -198,7 +240,13 @@ console.log(testGreeting); // printing the output value of the function.
  *  This function `returns` back a string which represents someone's full name. Invoke this function by passing in your first  and last name into the function. Store the return value into a variable named `myFullName` and console.log this variable to show your result.
 */
 
-
+var createFullName = {
+    firstName:"Lilly",
+    lastName: "Dudleys",
+    fullName: function() {
+        return this.firstName + " " + this.lastName;
+    }
+}
 
 /*
  * #13 
@@ -218,8 +266,8 @@ console.log(testGreeting); // printing the output value of the function.
 
 /************** ENGAGE HYPERDRIVE **************/
 /* No more training wheels! For the exercises #14-18, use the experience you've
-*  gained figure out how to build the necessary functions. Use your google-fu to 
-*  figure out anything you don't know! Ganbatte (good luck)! */
+*  gained and figure out how to build the necessary functions. Use your google-fu to 
+*  figure out anything you don't know! Good Luck!!! */
 /************** FIRE ALL CANNONS ***************/
 
 /*
