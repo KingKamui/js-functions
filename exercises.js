@@ -338,15 +338,17 @@ console.log(verifyDrinkingAge);
  Store the return value to a variable named `canParty`. Console.log your result.
  */
 
-var canDrink = 21<x;
-var cannotDrink = 21>y;
-
+var canDrink = true;
+var canParty;
 
 function throwParty(){
-    canDrink = return"Cheee Hoo! We going to da party!"
-    cannotDrink = return"Meh, see you at Starbucks."
+	true(canDrink);
+    canParty = return"Cheee Hoo! We going to da party!";
+    false()
+    canParty = return"Meh, see you at Starbucks.";
 }
-console.log(throwParty);
+throwParty();
+console.log(canParty);
 
 
 
