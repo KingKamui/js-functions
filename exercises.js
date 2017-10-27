@@ -277,7 +277,7 @@ function shoeSize(inches) {
     convert(inches);
     return(centimeters);
 }
-console.log(shoeSize)
+console.log(shoeSize);
 
 /*
  * #15
