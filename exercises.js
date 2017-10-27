@@ -327,7 +327,7 @@ function verifyDrinkingAge(age) {
     return canDrink(21 < x);
     return cannotDrink(21 > y);
 }
-console.log(verifyDrinkingAge(21 < x,21 > y));
+console.log(verifyDrinkingAge);
 
 /**
  * #18
@@ -346,7 +346,7 @@ function throwParty(){
     canDrink = return"Cheee Hoo! We going to da party!"
     cannotDrink = return"Meh, see you at Starbucks."
 }
-console.log(throwParty(canDrink, cannotDrink));
+console.log(throwParty);
 
 
 
